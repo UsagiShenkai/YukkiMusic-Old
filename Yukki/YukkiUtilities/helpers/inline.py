@@ -140,21 +140,7 @@ def personal_markup(link):
     return buttons
 
 
-start_keyboard = InlineKeyboardMarkup( 
-            [
-                [
-                    InlineKeyboardButton(
-                        "📚 Commands", url="https://telegra.ph/Veez-Mega-Bot-09-30"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🗑 Close", callback_data="close2"
-                    )
-                ]    
-            ]
-        )
- 
+
    
 confirm_keyboard = InlineKeyboardMarkup( 
             [
